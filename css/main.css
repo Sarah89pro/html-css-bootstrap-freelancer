@@ -1,49 +1,55 @@
+/*GENERAL*/
 body {
     background-color: #fff;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-
-h1,
-h2,
-h3 {
     text-transform: uppercase;
+    color:#fff;
 }
 
-/*fake content*/
-.main_header {
-    height: 60px;
+/*HEADER*/
+.main-header .sa-navbar {
+    background-color: #2c3e50;
+    font-weight: 700;
+    border: 0;
+    margin-bottom: 0;
 }
 
-.jumbotron {
-    height: 200px;
+.main-header .sa-brand,
+.main-header .sa-nav > li > a {
+    color:#fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.portfolio {
-    height:250px;
+
+.main-header .sa-brand:hover,
+.main-header .sa-nav > li > a:hover {
+    color:#18bc9c;
 }
 
-.box {
-    width: 100%;
-    background-color: #EDB586;
-    margin-bottom: 15px;
+/*JUMBOTRON*/
+.sa-jumbotron {
+    background-color: #18bc9c;
+    font-weight: 500;
 }
 
-.about {
-    height: 180px;
+.sa-jumbotron img {
+    width: 180px;
+    margin: auto;
+    padding-top: 30px;
 }
 
-.contactme {
-    height: 200px;
+.star-line {
+    display: inline-block;
+    width: 60px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: auto;
 }
 
-.footer_top {
-    height: 100px;
-}
 
-.footer_bottom {
-    height: 60px;
-}
+
+
 
 /*Colours*/
 .tealblue {
@@ -61,63 +67,7 @@ h3 {
 
 
 @media screen and (min-width: 768px) {
-    .main_header {
-        height: 100px;
-    }
-    
-    .jumbotron {
-        height: 250px;
-    }
-    
-    .portfolio {
-        height: 300px;
-    }
-    
-    .about {
-        height: 330px;
-    }
-    
-    .contactme {
-        height: 250px;
-    }
-    
-    .footer_top {
-        height: 150px;
-    }
-    
-    .footer_bottom {
-        height: 90px;
-    }
-}
-
-
+}    
 
 @media screen and (min-width: 992px) {
-    .main_header {
-        height: 150px;
-    }
-    
-    .jumbotron {
-        height: 300px;
-    }
-    
-    .portfolio {
-        height: 350px;
-    }
-    
-    .about {
-        height: 380px;
-    }
-    
-    .contactme {
-        height: 300px;
-    }
-    
-    .footer_top {
-        height: 200px;
-    }
-    
-    .footer_bottom {
-        height: 140px;
-    }
-}
+}   

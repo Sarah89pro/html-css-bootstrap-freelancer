@@ -9,7 +9,7 @@
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <!--Link Fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
     integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
@@ -20,29 +20,51 @@
 <body>
 
     <!--HEADER-->
-    <header class="main_header tealblue">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
+    <header class="main-header">
+        <nav class="navbar navbar-default sa-navbar">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand sa-brand" href="#">Start Bootstrap</a>
                 </div>
-            </div>
-        </div>
+      
+            <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right sa-nav">
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+           </div>
+        </nav>
     </header>
 
     <main>
     <!--JUMBOTRON-->
-        <section class="jumbotron aquamarine">
+        <section class="sa-jumbotron text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <img src="" alt="">
-                        <h1></h1>
-                        <h3></h3>
+                        <img class="img-responsive" src="./img/avatar.svg" alt="">
+                        <h1>Start Bootstrap</h1>
+                        <div>
+                            <span class=" star-line "></span>
+                            <i class="fas fa-star"></i>
+                            <span class=" star-line "></span>
+                        </div>
+                        <h3>graphic artist - web designer - illustrator</h3>
                     </div>
                 </div>
             </div>
         </section>
-
+    
     <!-- PORTFOLIO-->
         <section class="portfolio">
             <div class="container">
