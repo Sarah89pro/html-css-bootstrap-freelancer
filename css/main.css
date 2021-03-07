@@ -19,17 +19,29 @@ h1, h2, h3, h4 {
     font-weight: 500;
 }
 
+.pd-max {
+    padding-top: 100px;
+} 
+
 .mrg {
     margin-bottom: 30px;
 }
 
 
 /*HEADER*/
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
 .main-header .sa-navbar {
     font-weight: 700;
     border-color: #2c3e50;
     border-radius: 0;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     text-transform: uppercase;
 }
 
@@ -79,7 +91,7 @@ h1, h2, h3, h4 {
 
 .layover:hover{
     border-radius: 10px;   
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(64, 255, 214, 0.623);
 }
 
 /*ABOUT*/
